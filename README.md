@@ -44,5 +44,6 @@ If a file with the same name already exists in the bucket, a dialog will appear 
 
 ## ⚠️ Warning
 
-— This script makes the uploaded files publicly accessible. Be careful not to upload sensitive files that you do not want to be publicly accessible.
-— This script was made with the help of AI.
+1. This script makes the uploaded files publicly accessible. Be careful not to upload sensitive files that you do not want to be publicly accessible.
+
+2. This script was made with the help of AI.

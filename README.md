@@ -22,7 +22,7 @@ After Homebrew is installed, you can install the AWS CLI using the following com
 brew install awscli
 ```
 
-## ⚙️ AWS Configuration
+### ⚙️ AWS Configuration
 
 Once the AWS CLI is installed, you'll need to configure it with your AWS credentials. This includes your AWS Access Key ID, Secret Access Key, and a default region. You can do this with the following command:
 

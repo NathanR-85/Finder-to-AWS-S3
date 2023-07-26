@@ -1,6 +1,6 @@
 # 🚀 Finder to S3
 
-This AppleScript uploads the currently selected file in Finder to your AWS S3 bucket. It then sets the file to be **publicly accessible 🟠**, and copies the public URL to your clipboard 📋. _Make sure your bucket is public._
+This AppleScript uploads the currently selected file in Finder to your AWS S3 bucket. It then sets the file to be **publicly accessible 🟠**, and copies the public URL to your clipboard 📋.
 
 If a file with the same name already exists in the S3 folder, the script will ask you if you want to replace it, or make the filename unique when uploading so both versions are kept (e.g., filename.png becomes filename_xxxx.png).
 

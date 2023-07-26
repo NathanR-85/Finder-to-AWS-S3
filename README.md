@@ -6,6 +6,8 @@ If a file with the same name already exists in the S3 folder, the script will as
 
 Personally, I use this to upload images that I want to use in emails, but it could be useful for anyone who wants to upload files directly to S3 from Finder with regularity.
 
+As a general tip for AWS usage, avoid using periods in your S3 bucket names if you intend to access them via SSL. The presence of periods can disrupt the SSL certificate validation process because it interferes with the subdomain structure.
+
 ## 🛠️ Setup 
 
 Before you can use the script, you'll need to have the AWS Command Line Interface (CLI) installed on your Mac. You can do this using the Homebrew package manager. If you don't have Homebrew installed, you can install it first using the following command in Terminal:

@@ -1,4 +1,3 @@
-
 tell application "Finder"
     set theSelection to the selection
     if theSelection is {} then
@@ -9,9 +8,9 @@ tell application "Finder"
     set thePath to POSIX path of theItem
 end tell
 
-set bucketName to "wbs.filehosting"
-set awsPath to "s3://" & bucketName & "/email/uploaded/"
-set publicURL to "https://" & bucketName & ".s3.amazonaws.com/email/uploaded/"
+set bucketName to "your_bucket_name_here"
+set awsPath to "s3://" & bucketName & "/your_directory_here/"
+set publicURL to "https://" & bucketName & ".s3.amazonaws.com/your_directory_here/"
 
 set quotedPath to quoted form of thePath
 
@@ -33,7 +32,7 @@ set newFilePath to awsPath & fileName
 set quotedNewFilePath to quoted form of newFilePath
 
 do shell script "/usr/local/bin/aws s3 cp " & quotedPath & " " & quotedNewFilePath
-do shell script "/usr/local/bin/aws s3api put-object-acl --bucket " & bucketName & " --key \"email/uploaded/" & fileName & "\" --acl public-read"
+do shell script "/usr/local/bin/aws s3api put-object-acl --bucket " & bucketName & " --key \"your_directory_here/" & fileName & "\" --acl public-read"
 
 set publicURL to publicURL & fileName
 set the clipboard to publicURL

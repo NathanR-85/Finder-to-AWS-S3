@@ -2,7 +2,7 @@
 
 This AppleScript uploads the currently selected file in Finder to your AWS S3 bucket. It then sets the file to be **publicly accessible 🟠**, and copies the public URL to your clipboard 📋.
 
-If a file with the same name already exists in the bucket, the script will ask you if you want to replace it or add a suffix to make the new file's name unique (e.g., filename.png becomes filename_xxxx.png).
+If a file with the same name already exists in the S3 folder, the script will ask you if you want to replace it or add a suffix to make the new file's name unique (e.g., filename.png becomes filename_xxxx.png).
 
 Personally, I use this to upload images that I want to use in emails, but it could be useful for anyone who wants to upload files directly to S3 from Finder with regularity.
 

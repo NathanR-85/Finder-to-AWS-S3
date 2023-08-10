@@ -38,7 +38,7 @@ Please note that the Access Key ID and Secret Access Key are sensitive informati
 
 First, open the script and follow the comment to specify where to upload files: your bucket + folder.
 
-To use the script, simply select a file in Finder, then run the script (I use Keyboard Maestro). The script will upload the file to your specified S3 bucket, make it publicly accessible, and copy the public URL to your clipboard.
+To use the script, simply select a file in Finder, then run the script (I use a hotkey in Keyboard Maestro). The script will upload the file to your specified S3 bucket, make it publicly accessible, and copy the public URL to your clipboard.
 
 If a file with the same name already exists in the bucket, a dialog will appear asking if you want to replace the existing file or rename the new file (by adding a suffix).
 

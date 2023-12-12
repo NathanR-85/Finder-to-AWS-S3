@@ -6,7 +6,7 @@ If a file with the same name already exists in the S3 folder, the script will as
 
 Personally, I use this to upload images that I want to use in emails, but it could be useful for anyone who wants to upload files directly to S3 from Finder with regularity.
 
-_As a general tip for using AWS, avoid including periods in your S3 bucket names if you intend to access the files within them via HTTPS. The presence of periods in bucket names interferes with the subdomain structure, and causes issues with the SSL certificate validation process, which can disrupt secure access (HTTPS)._
+_As a general tip for using AWS, avoid including periods in your S3 bucket names if you intend to access the files within them via HTTPS. The presence of periods in bucket names interferes with the subdomain structure and causes issues with the SSL certificate validation process, which can disrupt secure access (HTTPS)._
 
 ## 🛠️ Setup 
 
@@ -46,4 +46,4 @@ If a file with the same name already exists in the bucket, a dialog will appear 
 
 1. This script makes the uploaded files publicly accessible. Be careful not to upload sensitive files that you do not want to be publicly accessible.
 
-2. This script was made with the help of AI.
+2. This script was made with the help of AI, and I'm not a coder so I can't review it, but it works flawlessly and I made sure the code is easy to read.

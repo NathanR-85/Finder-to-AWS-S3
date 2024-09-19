@@ -6,7 +6,7 @@ If a file with the same name already exists in the S3 folder, the script will as
 
 Personally, I use this to upload images that I want to use in emails, but it could be useful for anyone who wants to upload files directly to S3 from Finder with regularity.
 
-_General tip for using AWS: avoid including periods in your S3 bucket names if you intend to access the files within them via HTTPS. The presence of periods in bucket names interferes with the subdomain structure and causes issues with the SSL certificate validation process, which can disrupt secure access (HTTPS)._
+**_General tip for using AWS:** avoid including periods in your S3 bucket names if you intend to access the files within them via HTTPS. The presence of periods in bucket names interferes with the subdomain structure and causes issues with the SSL certificate validation process, which can disrupt secure access (HTTPS)._
 
 ## 🛠️ Setup 
 

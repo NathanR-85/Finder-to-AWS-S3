@@ -21,6 +21,7 @@ After Homebrew is installed, you can install the AWS CLI using the following com
 ```bash
 brew install awscli
 ```
+You'll need an an AWS API Key — you can Google how to get this. 
 
 ### AWS Configuration
 
@@ -30,9 +31,7 @@ Once the AWS CLI is installed, you'll need to configure it with your AWS credent
 aws configure
 ```
 
-This command will prompt you to enter your AWS Access Key ID, Secret Access Key, Default region name (like us-east-1, ap-south-1), and Default output format (like json). This is essentially an AWS API Key and you can Google how to get this.
-
-Please note that the Access Key ID and Secret Access Key are sensitive information and should be kept secure 🔐. For uploading to S3, the account will need the necessary S3 permissions.
+You'll be prompted to enter your AWS Access Key ID, Secret Access Key, and preferred region (e.g. us-east-1, ap-south-1). When you reach the prompt for 'Default output format', you can simply press Enter without typing anything to skip this setting.
 
 ## 📄 Usage
 
